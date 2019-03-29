@@ -1,6 +1,7 @@
 .DS_Store
 
 # Images
+node_modules
 images/avatars/
 images/captchas/
 images/smileys/
