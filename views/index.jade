@@ -3,4 +3,5 @@ extends layout
 block content
   //- h1= title
   each val,index in title
-    li = #{val.A}
+    li 
+      a(href="download_category/"+val.title) #{val.title}
